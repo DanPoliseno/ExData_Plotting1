@@ -14,6 +14,7 @@ attach(dtf)
 
 dev.copy(png, file = "plot3.png", height = 480, width = 480)
 
+#Plot 3
 plot(Sub_metering_1 ~ datetime, type = "l", xlab = "", ylab = "Energy sub metering")
 lines(Sub_metering_2 ~ datetime, col = "red")
 lines(Sub_metering_3 ~ datetime, col = "blue")
