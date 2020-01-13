@@ -13,7 +13,6 @@ dtf <- dtf[(Date >= "2007-02-01") & (Date <= "2007-02-02")]
 dev.copy(png, file = "plot1.png", height = 480, width = 480)
 
 #Plot 1
-
 hist(dtf[, Global_active_power], main="Global Active Power", 
      xlab="Global Active Power (kilowatts)", ylab="Frequency", col="Red")
 
